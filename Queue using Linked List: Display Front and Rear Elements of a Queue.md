@@ -29,8 +29,24 @@ To write a Python program to:
 
 ---
 ## Program
-Add code here
+      queue = []
+      
+      queue.append('a')
+      queue.append('b')
+      queue.append('c')
+      queue.append('d')
+      
+      print("Initial Queue:", queue)
+      
+      front = queue[0]
+      rear = queue[-1]
+      
+      print("Front element of the queue:", front)
+      print("Rear element of the queue:", rear)
+
 
 ## Output
+![image](https://github.com/user-attachments/assets/d64f2b27-5c14-46db-835e-b0d9eff22987)
 
 ## Result
+The program initializes a queue using a list and adds elements 'a', 'b', 'c', and 'd' using the append() method, which simulates enqueue operations. It then prints the entire queue, accesses the front element using queue[0] and the rear element using queue[-1], and displays them. The output correctly shows the queue in order along with its front and rear elements.
